@@ -2,21 +2,20 @@
 
 **************** Prepare the Data
 
+********************** Import the Data from raw_files folder and merge using combine.ado file 
+global github_path "https://raw.githubusercontent.com/MilesIParker/GoingNUTS/main"
+
+*ADO file 
+combine, saveas("raw_data.dta") // this will store the file in STATA memory and local directory 
 
 ********************** Define the global variables 
-clear
-set more off
+
 global year year 
 global date date 
 global date date
 global country country_long
 global Country_ID Country_ID
 global Territory_ID Territory_ID
-
-
-********************** Import the Data 
-cd "set the path"
-import delimited "final_data_population_nuts3.csv" // SET THE PATH
 
 ********************** Rename variables 
 rename cntr_code ${Country_ID}
@@ -380,7 +379,7 @@ label variable hotautumn_225C "Heatwave  autumn 2.25Celcius"
 
 ****** merge with macro dataset
 
-merge 1:1 Territory_ID year using "Macrodata_NUTS3.dta" // merge with macro data
+merge 1:1 Territory_ID year using "$github_path/Macrodata_NUTS3.dta" // merge with macro data
 *keep if _merge ==3
 drop _merge
 
