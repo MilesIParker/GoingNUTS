@@ -22,7 +22,7 @@ Step 1 (Optional):
               The program then cleans the raw data and creates the event variables and subgroups for further analysis.
 
 Step 2 (Analysis): run "main_analysis.do" runs the main analysis (Figures 1, Figure 2, Figure 3, Figure 4, Figure 5, Figure 6)
-       and also conducts sectoral analysis for all three types of events. 
+       and also conducts sectoral analysis for all three types of events. Results will be saved in your local drive. 
 
 # Set the path
 
