@@ -4,7 +4,7 @@ This repository includes replication codes for the project "Going NUTS: the regi
 
 Input files (Data preperation): 
 
-             Raw weather data for each country and territorial regions saved as "Data_*.csv" (Folder raw_files)
+             Raw weather data for each country and territorial region saved as "Data_*.csv" (Folder raw_files)
              
              "Macrodata_NUTS3"  for macro data
              
