@@ -2,8 +2,6 @@
 
 This repository includes replication codes for the project "Going NUTS: the regional impact of extreme climate events over the medium term"
 
-This replication package provides:
-
 Input files (Data preperation): 
 
              Raw weather data for each country and territorial regions saved as "Data_*.csv" (Folder raw_files)
