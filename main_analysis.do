@@ -964,7 +964,7 @@ restore
 
 
 
-merge 1:1 Territory_ID year using ""$github_path/GVA_NACE_sector"
+merge 1:1 Territory_ID year using "$github_path/GVA_NACE_sector"
 keep if _merge == 3
 drop  _merge
 
