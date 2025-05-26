@@ -5,6 +5,7 @@ This repository includes replication codes for the project "Going NUTS: the regi
 This replication package provides:
 
 Input files (Data preperation): 
+
              Raw weather data for each country and territorial regions saved as "Data_*.csv" (Folder raw_files)
              
              "Macrodata_NUTS3"  for macro data
@@ -13,6 +14,7 @@ Input files (Data preperation):
 
 
 Output files (for data analysis)
+
               "Final_data.dta" 
 
 
@@ -29,7 +31,11 @@ Step 2 (Analysis): run "main_analysis.do" runs the main analysis (Figures 1, Fig
 global github_path "https://raw.githubusercontent.com/MilesIParker/GoingNUTS/main"
 
 # Required STATA packages 
+
 ssc install tsspell 
+
 ssc install ftools 
+
 ssc install reghdfe
+
 ssc install gammafit
