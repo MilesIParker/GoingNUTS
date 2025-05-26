@@ -6,7 +6,9 @@ This replication package provides:
 
 Input files (Data preperation): 
              Raw weather data for each country and territorial regions saved as "Data_*.csv" (Folder raw_files)
+             
              "Macrodata_NUTS3"  for macro data
+             
              "GVA_NACE_sector"  Gross value added for sectoral analysis
 
 
@@ -25,3 +27,9 @@ Step 2 (Analysis): run "main_analysis.do" runs the main analysis (Figures 1, Fig
 # Set the path
 
 global github_path "https://raw.githubusercontent.com/MilesIParker/GoingNUTS/main"
+
+# Required STATA packages 
+ssc install tsspell 
+ssc install ftools 
+ssc install reghdfe
+ssc install gammafit
