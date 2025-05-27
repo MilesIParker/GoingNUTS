@@ -18,9 +18,6 @@ program define combine
 
         quietly import delimited "`url'", clear
 
-        * Optional: drop or keep variables here
-        * keep var1 var2 var3
-
         if `first_done' == 0 {
             save `combined', replace
             local first_done = 1
