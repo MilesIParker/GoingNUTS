@@ -1,6 +1,11 @@
 
 
-**************** Prepare the Data
+********************** Prepare the Data
+**** STATA Packages 
+ssc install tsspell
+ssc install ftools
+ssc install reghdfe
+ssc install gammafit
 
 ********************** Import the Data from raw_files folder and merge using combine.ado file 
 global github_path "https://raw.githubusercontent.com/MilesIParker/GoingNUTS/main"
@@ -227,7 +232,7 @@ replace flood_event_max3days = 0 if flood_event_max3days == .
 sort ${Territory_ID} t_var
 drop _seq _spell _end max
 
-*** Robustnes check (flood metric using total average precipitation in a given month)
+*** Robustness check (flood metric using total average precipitation in a given month)
 
 gammafit pr_total, vce(cluster Territory_ID)
 gen Probability_1 = .
