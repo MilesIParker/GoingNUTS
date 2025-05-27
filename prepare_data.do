@@ -1,10 +1,8 @@
 
 
 ********************** Prepare the Data
-**** STATA Packages 
+**** Required STATA Packages 
 ssc install tsspell
-ssc install ftools
-ssc install reghdfe
 ssc install gammafit
 
 ********************** Import the Data from raw_files folder and merge using combine.ado file 
