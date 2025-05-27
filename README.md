@@ -21,8 +21,8 @@ Step 1 (Optional):
               Run the do-file "prepare_data.do".  This file runs the ado-file "combine.do" and combines the weather data from all countries and creates an output file "raw_data.dta".
               The program then cleans the raw data and creates the event variables and subgroups for further analysis.
 
-Step 2 (Analysis): run "main_analysis.do" runs the main analysis (Figures 1, Figure 2, Figure 3, Figure 4, Figure 5, Figure 6)
-       and also conducts sectoral analysis for all three types of events. Results will be saved in your local drive. 
+Step 2 (Analysis): run "main_analysis.do" for the main analysis (Figures 1, Figure 2, Figure 3, Figure 4, Figure 5, Figure 6)
+       and also sectoral analysis for all three types of events. Results will be saved in your local drive. 
 
 # Set the path
 
