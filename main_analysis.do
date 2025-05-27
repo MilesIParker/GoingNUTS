@@ -1,3 +1,7 @@
+************************* STATA Packages 
+**** STATA Packages 
+ssc install ftools
+ssc install reghdfe
 
 **************** Local Projections with Difference in Difference (Main analysis and sectoral analysis)
 
