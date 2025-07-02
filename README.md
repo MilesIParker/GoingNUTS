@@ -1,8 +1,12 @@
 # GoingNUTS
 
-This repository includes replication codes for the project "Going NUTS: the regional impact of extreme climate events over the medium term"
+This repository includes replication codes for the article:
 
-Input files (Data preperation): 
+Sehrish Usman, Guzmán González-Torres Fernández, Miles Parker, "Going NUTS: The regional impact of extreme climate events over the medium term",
+European Economic Review, 2025, 105081, ISSN 0014-2921, https://doi.org/10.1016/j.euroecorev.2025.105081, https://www.sciencedirect.com/science/article/pii/S001429212500131X
+
+
+Input files (Data preparation): 
 
              Raw weather data for each country and territorial region saved as "Data_*.csv" (Folder raw_files)
              
